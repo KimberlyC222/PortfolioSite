@@ -6,7 +6,7 @@
   padding: 5px;
 }
 
-#placeholder {
+.placeholder {
   width: 24%;
   padding-top: 1px;
 }
@@ -95,7 +95,7 @@ p {
   .header {
     padding: 5px;
   }
-  
+
   .udacitylogo {
     padding-top: 20px;
     float: left;
