@@ -1,0 +1,104 @@
+.everything {
+  text-align: center;
+}
+
+.header {
+  padding: 5px;
+}
+
+#placeholder {
+  width: 24%;
+  padding-top: 1px;
+}
+
+.udacitylogo {
+  padding-top: 25px;
+  width: 90px;
+  float: center;
+  text-align: center;
+}
+.name-header {
+  font-family: helvetica;
+  float: center;
+  text-align: center;
+}
+
+.central-image {
+  width: 100%;
+}
+
+//portfolio
+
+.portfolio {
+  font-family: helvetica;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.placeholder {
+  width: 98%;
+  padding: 1px;
+}
+
+.center {
+  display: block;
+}
+
+.inner {
+  height: 500px;
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.inner-one {
+   background-color: rgba(252, 61, 55, 0.89);
+}
+
+.inner-two {
+  background-color: rgb(140, 207, 31);
+}
+
+.inner-three {
+  background-color: rgb(249, 253, 23);
+}
+
+.inner-four {
+  background-color: rgb(0, 195, 255);
+}
+p {
+  text-align: left;
+}
+
+@media only screen and (min-width: 400px) {
+  .central-image {
+  width: 100%;
+  float: center;
+  padding-top: 25px;
+  }
+
+  .inner {
+  height: 600px;
+  width: 24.2%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  }
+
+  .name-header {
+  font-family: helvetica;
+  float: right;
+  text-align: right;
+  }
+
+  .header {
+    padding: 5px;
+  }
+  
+  .udacitylogo {
+    padding-top: 20px;
+    float: left;
+    width: 67.5px;
+  }
+}
